@@ -57,7 +57,7 @@ var GitSearch = React.createClass({
                 <div className="search box-shadow">
                     <form onSubmit={this.search}>
                         <input className="search__input" onChange={this.onChange} value={this.state.query}
-                               placeholder="What are you looking for? Cats?" type="text" id="recherche"/>
+                               placeholder="What are you looking for?" type="text" id="recherche"/>
                     </form>
                 </div>
                 <div className="results">
